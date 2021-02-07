@@ -1,3 +1,4 @@
+/*
 window.onscroll = function() {myFunction()};
 
 var navbar = document.getElementById("navbar");
@@ -10,3 +11,20 @@ function myFunction() {
     navbar.classList.remove("sticky");
   }
 }
+*/
+$(document).ready(function () {
+    $(".thumb").hover(
+        function () {
+           
+            $(this).css("filter", " hue-rotate(280deg) brightness(90%)");
+         }, 
+          
+         function () {
+            $(this).css("filter","hue-rotate(0deg)");
+         }
+    );
+         
+       // $(this).css('filter', 'hue-rotate(210deg)');
+
+
+});
