@@ -54,6 +54,17 @@ canvas {
   z-index: 1;
 }
 /*
+.bg-img {
+  background-image: url("images/version_web.jpg");
+  min-height: 380px;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+*/
+/*
 .btn{
   position: absolute;
   top: 30%;
