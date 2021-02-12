@@ -1,14 +1,11 @@
-# portfolio
-Portfolio Page
+Portfolio
+##Introduction This is the current version of my portfolio. The main focus of the update was to add user-interactivity and animation. Through this work, I learned that you can implement classes (finally!) and gained a basic understanding of canvas. I was inspired by the Bauhaus movement. I love that style of art and design. 
 
-This was my first stab at a portfolio site. 
-The site includes three pages- About Me (index), Contact and Portfolio.
+##Technologies Bootstrap 4, JS, canvas element.
 
-It was created using BootStrap 4. I used BootStrap primarily for the contact form, the grid system, the footer and nav bar.
+##Launch Accessible at: https://khendersonpc.github.io/KellyHenderson/.
 
-I tried to keep the design minimal. I used white because it conveys a sense of luxury. I created some of my own graphics to make it feel a little more "artsy". 
-
-This is a responsive design.
+##Examples of use
 
 Here is a screenshot of the index page:
 ![Screenshot of index page.](/images/screenshot.jpg?raw=true "Image of Index Page")
