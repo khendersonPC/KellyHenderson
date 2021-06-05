@@ -69,11 +69,15 @@ function init() {
   ctx.fillText("Hello, I am Kelly Henderson.", (w*.5), (h*.80));
   //ctx.fillText("Hello, I am Kelly Henderson.", 580, 380);
   ctx.fillText("I am a full stack developer.", (w*.5), h*.87);
+  ctx.fillText("Click to learn more.",  (w*.5), h*.94);
 
+  canvas.addEventListener("click", on_click, false);
 }
 
 // wait for the HTML to load
 document.addEventListener('DOMContentLoaded', init)
+
+
 
 function move() {
   //text
@@ -83,12 +87,11 @@ function move() {
   
   ctx.fillStyle = "white";
   
-  //ctx.fillText("Hello, I am Kelly Henderson.", 580, 380);
-  //ctx.fillText("I am a full stack developer.", 580, 420);
+  
   ctx.fillText("Hello, I am Kelly Henderson.", (w*.5), (h*.80));
-  //ctx.fillText("Hello, I am Kelly Henderson.", 580, 380);
   ctx.fillText("I am a full stack developer.", (w*.5), h*.87);
-
+  ctx.fillText("Click to learn more.",  (w*.5), h*.94);
+  canvas.addEventListener("click", on_click, false);
   //var s0 = new Rectangle(0, pos, 50, 200, '#93BFBB');
   var s0 = new Rectangle(0, pos, (w*0.048828125), (h*0.4), '#93BFBB');
   //var s1 = new Rectangle(posXX, 220, 50, 200, '#93BFBB');
@@ -205,4 +208,8 @@ class Rectangle {
   }
 }
 
-
+function on_click(e) {
+  
+    window.location = "https://khendersonpc.github.io/KellyHenderson/about.html#";
+  
+}
