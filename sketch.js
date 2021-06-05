@@ -69,8 +69,11 @@ function init() {
   ctx.fillText("Hello, I am Kelly Henderson.", (w*.5), (h*.80));
   //ctx.fillText("Hello, I am Kelly Henderson.", 580, 380);
   ctx.fillText("I am a full stack developer.", (w*.5), h*.87);
-  ctx.fillText("Click to learn more.",  (w*.5), h*.94);
-
+  fontSize= w*(20/1024);
+  ctx.font = "Italic " + (fontSize|0) + "px Verdana";
+  
+  ctx.fillText("*Click to learn more*",  (w*.6), h*.92);
+  
   canvas.addEventListener("click", on_click, false);
 }
 
