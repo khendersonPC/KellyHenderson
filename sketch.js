@@ -93,7 +93,11 @@ function move() {
   
   ctx.fillText("Hello, I am Kelly Henderson.", (w*.5), (h*.80));
   ctx.fillText("I am a full stack developer.", (w*.5), h*.87);
-  ctx.fillText("Click to learn more.",  (w*.5), h*.94);
+  fontSize= w*(20/1024);
+  ctx.font = "Italic " + (fontSize|0) + "px Verdana";
+  
+  ctx.fillText("*Click to learn more*",  (w*.6), h*.92);
+  
   canvas.addEventListener("click", on_click, false);
   //var s0 = new Rectangle(0, pos, 50, 200, '#93BFBB');
   var s0 = new Rectangle(0, pos, (w*0.048828125), (h*0.4), '#93BFBB');
